@@ -18,15 +18,9 @@ homepage = "https://github.com/pistondevelopers/window"
 name = "window"
 path = "src/lib.rs"
 
-[dependencies.pistoncore-input]
+[dependencies]
 
-git = "https://github.com/pistondevelopers/input"
-
-[dependencies.pistoncore-current]
-
-git = "https://github.com/pistondevelopers/current"
-
-[dependencies.pistoncore-event_loop]
-
-git = "https://github.com/pistondevelopers/event_loop"
+pistoncore-input = "0.0.0"
+pistoncore-current = "0.0.0"
+pistoncore-event_loop = "0.0.0"
 
